@@ -1,0 +1,20 @@
+{
+  "name": "nozvi-game-ballsorts",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "test": "node --loader ts-node/esm tests/run_tests.ts || tsx tests/run_tests.ts || node --import tsx tests/run_tests.ts"
+  },
+  "dependencies": {
+    "phaser": "^3.88.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.2",
+    "vite": "^6.0.3",
+    "tsx": "^4.19.2"
+  }
+}
